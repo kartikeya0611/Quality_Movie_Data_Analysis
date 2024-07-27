@@ -147,7 +147,7 @@ For other columns keep the Data type as expected in the destination redshift tab
 ![image](https://github.com/user-attachments/assets/f0836a7c-7081-4820-82f8-282f4cd3ccfe)
 ![image](https://github.com/user-attachments/assets/c865574c-d021-4fc1-b38b-878cf57fb55b)
 
-S3 VPC endpoint is needed to be created to use this directory in S3
+Note - S3 VPC endpoint is needed to be created to use this S3 directory for Glue
 
 Now run the Glue job and check the destination table contents in redshift:
 
